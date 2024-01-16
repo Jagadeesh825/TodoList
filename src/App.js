@@ -1,7 +1,6 @@
 import TODOLIST from './components/TodoList';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { faBullhorn } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
   return (

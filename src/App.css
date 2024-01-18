@@ -44,7 +44,8 @@ button:hover {
 .task-container {
   display: flex;
   flex-wrap: wrap;
-  justify-items: flex-start;
+  justify-content:center;
+
 }
 
 /* Card styles */

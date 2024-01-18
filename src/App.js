@@ -4,11 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-<div className="App" style={{ background: 'linear-gradient(to right, #0d1f38, #01030e)', minHeight: '100vh' }}>
    
+<div className="App" style={{ background: 'linear-gradient(to right, #0d1f38, #01030e)', minHeight: '100vh' }}>
+  
       <TODOLIST/>
+      </div>
+ 
     
-    </div>
   );
 }
 

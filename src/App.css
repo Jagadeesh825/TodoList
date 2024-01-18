@@ -1,16 +1,3 @@
-/* Reset some default browser styles */
-body, h1, h2, p, button {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #08141a; /* Dark background */
-  color: #fff; /* White text color */
-  line-height: 1.6;
-  font-size: 16px;
-}
 
 .header {
   background: linear-gradient(to right, #0d1f38, #01030e); /* Gradient from #0d1f38 to #0a1b64 */
@@ -41,12 +28,27 @@ button:hover {
 }
 
 /* Task container styles */
+/* Default styles for all devices */
 .task-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
-
+  justify-items: flex-start;
 }
+
+/* Media query for screens with a maximum width of 768 pixels (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .task-container {
+    justify-content: center; /* Center on mobile */
+  }
+}
+
+/* Media query for screens with a minimum width of 769 pixels (typical desktop devices) */
+@media only screen and (min-width: 769px) {
+  .task-container {
+    justify-content: flex-start; /* Start from the beginning on desktop */
+  }
+}
+
 
 /* Card styles */
 .card-container {

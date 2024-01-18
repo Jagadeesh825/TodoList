@@ -41,11 +41,27 @@ button:hover {
 }
 
 /* Task container styles */
+/* Default styles for all devices */
 .task-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-items: flex-start;
 }
+
+/* Media query for screens with a maximum width of 768 pixels (typical mobile devices) */
+@media only screen and (max-width: 768px) {
+  .task-container {
+    justify-content: center; /* Center on mobile */
+  }
+}
+
+/* Media query for screens with a minimum width of 769 pixels (typical desktop devices) */
+@media only screen and (min-width: 769px) {
+  .task-container {
+    justify-content: flex-start; /* Start from the beginning on desktop */
+  }
+}
+
 
 /* Card styles */
 .card-container {

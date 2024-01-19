@@ -24,7 +24,8 @@ const CreateTask = ({ modal, toggle, save }) => {
 
   return (
     <Modal isOpen={modal} toggle={toggle} className="custom-modal">
-      <ModalHeader toggle={toggle} style={{ background: 'linear-gradient(to right, #091325, #131a3ch)', color: 'white' }}>Create Task</ModalHeader>
+     <ModalHeader toggle={toggle} style={{ background: 'linear-gradient(to right, #091325, #131a3c)', color: 'white' }}>Create Task</ModalHeader>
+
       <ModalBody style={{ background: '#091325', color: 'white' }}>
         <form>
           <div className='form-group'>

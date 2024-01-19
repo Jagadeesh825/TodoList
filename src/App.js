@@ -5,9 +5,26 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
    
-<div className="App" style={{ background: 'linear-gradient(to right, #0d1f38, #01030e)', minHeight: '100vh' }}>
+<div className="App" >
+
   
-      <TODOLIST/>
+<div class="area" >
+<ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+            <TODOLIST/>
+            
+    </div >
+      
       </div>
  
     

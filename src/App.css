@@ -26,7 +26,7 @@ body{
 
 .area{
     background: #010218;  
-    background: -webkit-linear-gradient(to left, #525af4, #2b308e);  
+    background: -webkit-linear-gradient(to left, #04073e, #030531);  
     width: 100%;
     min-height: 100vh;
     
@@ -254,7 +254,7 @@ button:hover {
 }
 
 .custom-modal .modal-content {
-  background: linear-gradient(to right, #040810, #02071d); /* Gradient from #09142a to #0a1b64 */
+  background: linear-gradient(to right, #122448, #0c28a4); /* Gradient from #09142a to #0a1b64 */
   border-radius: 30px;
   overflow: hidden;
   color: white;

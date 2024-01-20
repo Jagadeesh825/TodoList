@@ -25,10 +25,10 @@ body{
 
 
 .area{
-    background: #020425;  
-    background: -webkit-linear-gradient(to left, #565ee9, #4e54c8);  
+    background: #010218;  
+    background: -webkit-linear-gradient(to left, #525af4, #2b308e);  
     width: 100%;
-    height:100vh;
+    min-height: 100vh;
     
    
 }

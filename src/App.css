@@ -151,8 +151,11 @@ body{
 
 .header {
   background: linear-gradient(to right, #020c1b, #010622); 
+<<<<<<< HEAD
   
 
+=======
+>>>>>>> 3f17187bbf96d7730854a331462ec78ebbb0363e
   padding: 20px;
   text-align: center;
   color: #fff;
@@ -165,7 +168,7 @@ h1 {
 }
 
 button {
-  background: linear-gradient(to right, #0d2942, #061441); /* Gradient from #004480 to #030714 */
+  background: linear-gradient(to right, #0d2942, #061441); 
   color: white; /* White text color */
   border: none;
   padding: 15px 20px;
@@ -256,7 +259,7 @@ button:hover {
 }
 
 .custom-modal .modal-content {
-  background: linear-gradient(to right, #040810, #02071d); /* Gradient from #09142a to #0a1b64 */
+  background: linear-gradient(to right, #040810, #02071d); 
   border-radius: 30px;
   overflow: hidden;
   color: white;

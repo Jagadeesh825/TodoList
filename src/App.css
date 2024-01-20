@@ -150,7 +150,9 @@ body{
 }
 
 .header {
-  background: linear-gradient(to right, #020c1b, #010622); /* Gradient from #0d1f38 to #0a1b64 */
+  background: linear-gradient(to right, #020c1b, #010622); 
+  
+
   padding: 20px;
   text-align: center;
   color: #fff;

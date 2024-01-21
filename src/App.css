@@ -32,27 +32,25 @@ body{
     
    
 }
-
-.circles{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    pointer-events: none;
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; /* Use the viewport height to cover the entire content area */
+  overflow: hidden;
+  pointer-events: none;
 }
 
-.circles li{
-    position: absolute;
-    display: block;
-    list-style: none;
-    width: 20px;
-    height: 20px;
-    background: rgba(255, 255, 255, 0.2);
-    animation: animate 25s linear infinite;
-    bottom: -150px;
-    
+.circles li {
+  position: absolute;
+  display: block;
+  list-style-type: disc;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 20s linear infinite;
+  bottom: -150px;
 }
 
 .circles li:nth-child(1){
@@ -147,6 +145,15 @@ body{
         border-radius: 50%;
     }
 
+}
+@media only screen and (max-width: 768px) {
+  .task-container {
+      justify-content: center; /* Center on mobile */
+  }
+
+  .circles li {
+      bottom: -50px; /* Adjust the starting position for smaller screens */
+  }
 }
 
 .header {

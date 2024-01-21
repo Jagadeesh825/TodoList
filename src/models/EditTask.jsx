@@ -17,8 +17,8 @@ const EditTask = ({ modal, toggle, updateTask, taskObj }) => {
 
   return (
     <Modal isOpen={modal} toggle={toggle}>
-      <ModalHeader toggle={toggle}>Edit Task</ModalHeader>
-      <ModalBody>
+     <ModalHeader toggle={toggle} style={{ background: 'linear-gradient(to right, #091325, #131a3c)', color: 'white' }}>Edit Task</ModalHeader>
+      <ModalBody style={{ background: '#091325', color: 'white' }}>
         <form>
           <div className='form-group'>
             <label>Task Name</label>
@@ -30,7 +30,7 @@ const EditTask = ({ modal, toggle, updateTask, taskObj }) => {
           </div>
         </form>
       </ModalBody>
-      <ModalFooter>
+      <ModalFooter style={{ background: '#122636'}}>
         <Button color="primary" onClick={handleSave}>
           Save Changes
         </Button>{' '}
